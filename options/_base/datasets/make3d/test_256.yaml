@@ -1,0 +1,8 @@
+_dataset:
+  type: Make3DDataset
+  params:
+    split_file: data_splits/make3d/test_list.txt
+    normalize_params: [0.411, 0.432, 0.45]
+    use_godard_crop: True
+    full_size: [256, 512]
+    resize_before_crop: False
