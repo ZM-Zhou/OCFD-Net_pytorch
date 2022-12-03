@@ -1,5 +1,18 @@
 # OCFD-Net_pytorch
-This is the official repo for our work 'Learning Occlusion-aware Coarse-to-Fine Depth Map for Self-supervised Monocular Depth Estimation' (ACM-MM' 2022).
+This is the official repo for our work 'Learning Occlusion-aware Coarse-to-Fine Depth Map for Self-supervised Monocular Depth Estimation' (ACM-MM' 2022).  
+[Paper](https://dl.acm.org/doi/10.1145/3503161.3548381)  
+Citation information:
+```
+@inproceedings{zhou2022learning,
+title = {Learning Occlusion-Aware Coarse-to-Fine Depth Map for Self-Supervised Monocular Depth Estimation},
+author = {Zhou, Zhengming and Dong, Qiulei},
+booktitle = {Proceedings of the 30th ACM International Conference on Multimedia},
+pages = {6386–6395},
+year = {2022},
+publisher = {Association for Computing Machinery},
+doi = {10.1145/3503161.3548381},
+}
+```
 
 ## Setup
 We built and ran the repo with CUDA 11.0, Python 3.7.11, and Pytorch 1.7.0. For using this repo, we recommend creating a virtual environment by [Anaconda](https://www.anaconda.com/products/individual). Please open a terminal in the root of the repo folder for running the following commands and scripts.
